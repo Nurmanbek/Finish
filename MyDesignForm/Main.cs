@@ -36,15 +36,15 @@ namespace MyDesignForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(panelLeft.Width == 2)
+            if(panelLeft.Width == 3)
             {
-                panelLeft.Width = 175;
+                panelLeft.Width = 191;
                 this.button1.Visible = false;
             }
             else
             {
                 this.button1.Visible = true;
-                panelLeft.Width = 2;
+                panelLeft.Width = 3;
             }
         }
 
@@ -55,44 +55,49 @@ namespace MyDesignForm
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (panelLeft.Width == 175)
+            if (panelLeft.Width == 191)
             {
-                panelLeft.Width = 2;
+                panelLeft.Width = 3;
                 this.button1.Visible = true;
             }
             else
             {
-                panelLeft.Width = 175;
+                panelLeft.Width = 191;
                 this.button1.Visible = false;
             }
         }
 
         private void button67_Click(object sender, EventArgs e)
         {
-            if (panelRight.Width == 2)
+            if (panelRight.Width == 3)
             {
-                panelRight.Width = 175;
+                panelRight.Width = 191;
                 this.button67.Visible = false;
             }
             else
             {
-                panelRight.Width = 2;
+                panelRight.Width = 3;
                 this.button67.Visible = true;
             }
         }
 
         private void button66_Click(object sender, EventArgs e)
         {
-            if (panelRight.Width == 175)
+            if (panelRight.Width == 191)
             {
-                panelRight.Width = 2;
+                panelRight.Width = 3;
                 this.button67.Visible = true;
             }
             else
             {
                 this.button67.Visible = false;
-                panelRight.Width = 175;
+                panelRight.Width = 191;
             }
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

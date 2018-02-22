@@ -39,7 +39,7 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(116, 311);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(109, 335);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
@@ -53,7 +53,7 @@
             // 
             this.txtUsername.Depth = 0;
             this.txtUsername.Hint = "Username";
-            this.txtUsername.Location = new System.Drawing.Point(62, 230);
+            this.txtUsername.Location = new System.Drawing.Point(55, 238);
             this.txtUsername.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -69,7 +69,7 @@
             // 
             this.txtPassword.Depth = 0;
             this.txtPassword.Hint = "Password";
-            this.txtPassword.Location = new System.Drawing.Point(62, 267);
+            this.txtPassword.Location = new System.Drawing.Point(55, 283);
             this.txtPassword.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -84,7 +84,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(85, 89);
+            this.pictureBox1.Location = new System.Drawing.Point(80, 97);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 113);
             this.pictureBox1.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 381);
+            this.ClientSize = new System.Drawing.Size(282, 414);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
