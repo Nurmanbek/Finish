@@ -30,7 +30,7 @@ namespace MyDesignForm
             // TODO: данная строка кода позволяет загрузить данные в таблицу "appData.PhoneBooks". При необходимости она может быть перемещена или удалена.
 
             FormBorderStyle = FormBorderStyle.None;
-            WindowState = FormWindowState.Normal;
+            WindowState = FormWindowState.Maximized;
             TopMost = true;
         }
 
@@ -38,7 +38,7 @@ namespace MyDesignForm
         {
             if(panelLeft.Width == 3)
             {
-                panelLeft.Width = 191;
+                panelLeft.Width = 220;
                 this.button1.Visible = false;
             }
             else
@@ -55,14 +55,14 @@ namespace MyDesignForm
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (panelLeft.Width == 191)
+            if (panelLeft.Width == 220)
             {
                 panelLeft.Width = 3;
                 this.button1.Visible = true;
             }
             else
             {
-                panelLeft.Width = 191;
+                panelLeft.Width = 220;
                 this.button1.Visible = false;
             }
         }
@@ -71,7 +71,7 @@ namespace MyDesignForm
         {
             if (panelRight.Width == 3)
             {
-                panelRight.Width = 191;
+                panelRight.Width = 220;
                 this.button67.Visible = false;
             }
             else
@@ -83,7 +83,7 @@ namespace MyDesignForm
 
         private void button66_Click(object sender, EventArgs e)
         {
-            if (panelRight.Width == 191)
+            if (panelRight.Width == 220)
             {
                 panelRight.Width = 3;
                 this.button67.Visible = true;
@@ -91,7 +91,7 @@ namespace MyDesignForm
             else
             {
                 this.button67.Visible = false;
-                panelRight.Width = 191;
+                panelRight.Width = 220;
             }
         }
 
