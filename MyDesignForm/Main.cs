@@ -32,6 +32,18 @@ namespace MyDesignForm
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
             TopMost = true;
+
+            panel9.AutoScroll = false;
+            panel9.VerticalScroll.Enabled = false;
+            panel9.VerticalScroll.Visible = false;
+            panel9.VerticalScroll.Maximum = 0;
+            panel9.AutoScroll = true;
+
+            panel11.AutoScroll = false;
+            panel11.VerticalScroll.Enabled = false;
+            panel11.VerticalScroll.Visible = false;
+            panel11.VerticalScroll.Maximum = 0;
+            panel11.AutoScroll = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -98,6 +110,11 @@ namespace MyDesignForm
         private void panel11_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }
