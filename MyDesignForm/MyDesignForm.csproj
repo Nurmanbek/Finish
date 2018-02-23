@@ -178,6 +178,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Employee.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\logo-1340516_960_720.png" />
     <None Include="Resources\001-login - Copy.png" />
     <None Include="Resources\002-logout.png" />
     <None Include="Resources\login.png" />

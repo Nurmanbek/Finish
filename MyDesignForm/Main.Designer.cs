@@ -30,15 +30,44 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panelLeft = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.lblDohod = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelRight = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.lblRoshod = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.button24 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -51,19 +80,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.panelRight = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.lblRoshod = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
@@ -75,36 +93,19 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.button66 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.button67 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.panel13 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panelLeft.SuspendLayout();
-            this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelRight.SuspendLayout();
@@ -112,12 +113,15 @@
             this.panel11.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel13.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -130,17 +134,6 @@
             this.panel1.Size = new System.Drawing.Size(1177, 722);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.panel2.Controls.Add(this.button13);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.ForeColor = System.Drawing.Color.LightGray;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1177, 62);
-            this.panel2.TabIndex = 0;
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.panel6);
@@ -152,8 +145,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.DimGray;
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(239)))), ((int)(((byte)(241)))));
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Controls.Add(this.panelLeft);
             this.panel6.Controls.Add(this.button1);
@@ -172,7 +164,6 @@
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.panelLeft.Controls.Add(this.panel9);
-            this.panelLeft.Controls.Add(this.label10);
             this.panelLeft.Controls.Add(this.label7);
             this.panelLeft.Controls.Add(this.panel10);
             this.panelLeft.Controls.Add(this.panel4);
@@ -183,23 +174,46 @@
             this.panelLeft.Size = new System.Drawing.Size(3, 660);
             this.panelLeft.TabIndex = 0;
             // 
+            // panel9
+            // 
+            this.panel9.AutoScroll = true;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
+            this.panel9.Controls.Add(this.button24);
+            this.panel9.Controls.Add(this.label10);
+            this.panel9.Controls.Add(this.button23);
+            this.panel9.Controls.Add(this.button22);
+            this.panel9.Controls.Add(this.button12);
+            this.panel9.Controls.Add(this.button11);
+            this.panel9.Controls.Add(this.button8);
+            this.panel9.Controls.Add(this.button5);
+            this.panel9.Controls.Add(this.button4);
+            this.panel9.Controls.Add(this.button2);
+            this.panel9.Controls.Add(this.button7);
+            this.panel9.Controls.Add(this.button9);
+            this.panel9.Controls.Add(this.button6);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 71);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(3, 508);
+            this.panel9.TabIndex = 4;
+            // 
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label10.Location = new System.Drawing.Point(0, 596);
+            this.label10.Location = new System.Drawing.Point(0, 488);
             this.label10.Name = "label10";
             this.label10.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label10.Size = new System.Drawing.Size(3, 4);
+            this.label10.Size = new System.Drawing.Size(171, 3);
             this.label10.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Location = new System.Drawing.Point(0, 57);
+            this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label7.Location = new System.Drawing.Point(0, 596);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(3, 4);
             this.label7.TabIndex = 1;
@@ -223,27 +237,326 @@
             this.lblDohod.Text = "1234567";
             this.lblDohod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel9
+            // panel4
             // 
-            this.panel9.AutoScroll = true;
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
-            this.panel9.Controls.Add(this.button24);
-            this.panel9.Controls.Add(this.button23);
-            this.panel9.Controls.Add(this.button22);
-            this.panel9.Controls.Add(this.button12);
-            this.panel9.Controls.Add(this.button11);
-            this.panel9.Controls.Add(this.button8);
-            this.panel9.Controls.Add(this.button5);
-            this.panel9.Controls.Add(this.button4);
-            this.panel9.Controls.Add(this.button2);
-            this.panel9.Controls.Add(this.button7);
-            this.panel9.Controls.Add(this.button9);
-            this.panel9.Controls.Add(this.button6);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 61);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(3, 519);
-            this.panel9.TabIndex = 4;
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 39);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(3, 32);
+            this.panel4.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(3, 4);
+            this.label6.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label4.Location = new System.Drawing.Point(0, 29);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(3, 3);
+            this.label4.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel16);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(3, 39);
+            this.panel3.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Green;
+            this.label1.Location = new System.Drawing.Point(29, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Д О Х О Д";
+            // 
+            // panelRight
+            // 
+            this.panelRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
+            this.panelRight.Controls.Add(this.label11);
+            this.panelRight.Controls.Add(this.label9);
+            this.panelRight.Controls.Add(this.panel12);
+            this.panelRight.Controls.Add(this.panel11);
+            this.panelRight.Controls.Add(this.panel7);
+            this.panelRight.Controls.Add(this.panel8);
+            this.panelRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelRight.Location = new System.Drawing.Point(1174, 0);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(3, 660);
+            this.panelRight.TabIndex = 2;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label11.Location = new System.Drawing.Point(0, 599);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(3, 4);
+            this.label11.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label9.Location = new System.Drawing.Point(0, 579);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(3, 3);
+            this.label9.TabIndex = 7;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.lblRoshod);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel12.Location = new System.Drawing.Point(0, 603);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(3, 57);
+            this.panel12.TabIndex = 6;
+            // 
+            // lblRoshod
+            // 
+            this.lblRoshod.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblRoshod.Location = new System.Drawing.Point(28, 8);
+            this.lblRoshod.Name = "lblRoshod";
+            this.lblRoshod.Size = new System.Drawing.Size(136, 43);
+            this.lblRoshod.TabIndex = 1;
+            this.lblRoshod.Text = "1234567";
+            this.lblRoshod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel11
+            // 
+            this.panel11.AutoScroll = true;
+            this.panel11.Controls.Add(this.button10);
+            this.panel11.Controls.Add(this.button26);
+            this.panel11.Controls.Add(this.button25);
+            this.panel11.Controls.Add(this.button14);
+            this.panel11.Controls.Add(this.button15);
+            this.panel11.Controls.Add(this.button16);
+            this.panel11.Controls.Add(this.button17);
+            this.panel11.Controls.Add(this.button18);
+            this.panel11.Controls.Add(this.button19);
+            this.panel11.Controls.Add(this.button20);
+            this.panel11.Controls.Add(this.button21);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 71);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(3, 508);
+            this.panel11.TabIndex = 4;
+            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Controls.Add(this.label5);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 39);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(3, 32);
+            this.panel7.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label8.Location = new System.Drawing.Point(0, 29);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(3, 3);
+            this.label8.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(3, 4);
+            this.label5.TabIndex = 1;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.panel17);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(3, 39);
+            this.panel8.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Green;
+            this.label3.Location = new System.Drawing.Point(50, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(121, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Р О С Х О Д";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(174)))), ((int)(((byte)(0)))));
+            this.panel13.Controls.Add(this.pictureBox1);
+            this.panel13.Controls.Add(this.label2);
+            this.panel13.Controls.Add(this.label12);
+            this.panel13.Controls.Add(this.label13);
+            this.panel13.Location = new System.Drawing.Point(112, 237);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(232, 138);
+            this.panel13.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(13, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(188, 24);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Кандай текст жазылат";
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(13, 74);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(112, 24);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Текст жазат";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(24, 13);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(64, 43);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "36";
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(174)))), ((int)(((byte)(0)))));
+            this.panel15.Controls.Add(this.pictureBox3);
+            this.panel15.Controls.Add(this.label17);
+            this.panel15.Controls.Add(this.label18);
+            this.panel15.Controls.Add(this.label19);
+            this.panel15.Location = new System.Drawing.Point(821, 239);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(232, 138);
+            this.panel15.TabIndex = 3;
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(13, 106);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(188, 24);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Кандай текст жазылат";
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(13, 74);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(112, 24);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Текст жазат";
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(24, 13);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(64, 43);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "36";
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(130)))), ((int)(((byte)(19)))));
+            this.panel14.Controls.Add(this.pictureBox2);
+            this.panel14.Controls.Add(this.label14);
+            this.panel14.Controls.Add(this.label15);
+            this.panel14.Controls.Add(this.label16);
+            this.panel14.Location = new System.Drawing.Point(472, 239);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(232, 138);
+            this.panel14.TabIndex = 3;
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(13, 106);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(188, 24);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Кандай текст жазылат";
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(13, 74);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(112, 24);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Текст жазат";
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(25, 13);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(81, 54);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "124";
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel16.Controls.Add(this.button3);
+            this.panel16.Controls.Add(this.label1);
+            this.panel16.Location = new System.Drawing.Point(0, 6);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(191, 27);
+            this.panel16.TabIndex = 5;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel17.Controls.Add(this.button66);
+            this.panel17.Controls.Add(this.label3);
+            this.panel17.Location = new System.Drawing.Point(0, 8);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(191, 27);
+            this.panel17.TabIndex = 6;
             // 
             // button24
             // 
@@ -472,157 +785,32 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 39);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(3, 18);
-            this.panel4.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(3, 4);
-            this.label6.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Location = new System.Drawing.Point(0, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(3, 4);
-            this.label4.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(3, 39);
-            this.panel3.TabIndex = 2;
-            // 
             // button3
             // 
             this.button3.BackgroundImage = global::MyDesignForm.Properties.Resources._001_login___Copy;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(154, 6);
+            this.button3.Location = new System.Drawing.Point(146, 1);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(32, 23);
+            this.button3.Size = new System.Drawing.Size(43, 26);
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(32, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Д О Х О Д";
-            // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkCyan;
             this.button1.BackgroundImage = global::MyDesignForm.Properties.Resources._002_logout;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(6, 6);
+            this.button1.Location = new System.Drawing.Point(2, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(29, 23);
+            this.button1.Size = new System.Drawing.Size(29, 25);
             this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panelRight
-            // 
-            this.panelRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
-            this.panelRight.Controls.Add(this.label11);
-            this.panelRight.Controls.Add(this.label9);
-            this.panelRight.Controls.Add(this.panel12);
-            this.panelRight.Controls.Add(this.panel11);
-            this.panelRight.Controls.Add(this.panel7);
-            this.panelRight.Controls.Add(this.panel8);
-            this.panelRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelRight.Location = new System.Drawing.Point(1174, 0);
-            this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(3, 660);
-            this.panelRight.TabIndex = 2;
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label11.Location = new System.Drawing.Point(0, 596);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(3, 4);
-            this.label11.TabIndex = 8;
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label9.Location = new System.Drawing.Point(0, 576);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(3, 4);
-            this.label9.TabIndex = 7;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.lblRoshod);
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel12.Location = new System.Drawing.Point(0, 600);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(3, 60);
-            this.panel12.TabIndex = 6;
-            // 
-            // lblRoshod
-            // 
-            this.lblRoshod.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblRoshod.Location = new System.Drawing.Point(28, 8);
-            this.lblRoshod.Name = "lblRoshod";
-            this.lblRoshod.Size = new System.Drawing.Size(136, 43);
-            this.lblRoshod.TabIndex = 1;
-            this.lblRoshod.Text = "1234567";
-            this.lblRoshod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel11
-            // 
-            this.panel11.AutoScroll = true;
-            this.panel11.Controls.Add(this.button10);
-            this.panel11.Controls.Add(this.button26);
-            this.panel11.Controls.Add(this.button25);
-            this.panel11.Controls.Add(this.button14);
-            this.panel11.Controls.Add(this.button15);
-            this.panel11.Controls.Add(this.button16);
-            this.panel11.Controls.Add(this.button17);
-            this.panel11.Controls.Add(this.button18);
-            this.panel11.Controls.Add(this.button19);
-            this.panel11.Controls.Add(this.button20);
-            this.panel11.Controls.Add(this.button21);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 57);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(3, 519);
-            this.panel11.TabIndex = 4;
-            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
             // button10
             // 
@@ -831,213 +1019,32 @@
             this.button21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button21.UseVisualStyleBackColor = true;
             // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label8);
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 39);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(3, 18);
-            this.panel7.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label8.Location = new System.Drawing.Point(0, 14);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(3, 4);
-            this.label8.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Location = new System.Drawing.Point(0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(3, 4);
-            this.label5.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.button66);
-            this.panel8.Controls.Add(this.label3);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(3, 39);
-            this.panel8.TabIndex = 2;
-            // 
             // button66
             // 
             this.button66.BackgroundImage = global::MyDesignForm.Properties.Resources.login;
             this.button66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button66.FlatAppearance.BorderSize = 0;
             this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.Location = new System.Drawing.Point(5, 6);
+            this.button66.Location = new System.Drawing.Point(3, 2);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(32, 23);
             this.button66.TabIndex = 4;
             this.button66.UseVisualStyleBackColor = true;
             this.button66.Click += new System.EventHandler(this.button66_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(43, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Р О С Х О Д";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(174)))), ((int)(((byte)(0)))));
-            this.panel15.Controls.Add(this.pictureBox3);
-            this.panel15.Controls.Add(this.label17);
-            this.panel15.Controls.Add(this.label18);
-            this.panel15.Controls.Add(this.label19);
-            this.panel15.Location = new System.Drawing.Point(821, 239);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(232, 138);
-            this.panel15.TabIndex = 3;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(129, 24);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(91, 79);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(13, 106);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(188, 24);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Кандай текст жазылат";
-            // 
-            // label18
-            // 
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(13, 74);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(112, 24);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Текст жазат";
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(24, 13);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(64, 43);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "36";
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(130)))), ((int)(((byte)(19)))));
-            this.panel14.Controls.Add(this.pictureBox2);
-            this.panel14.Controls.Add(this.label14);
-            this.panel14.Controls.Add(this.label15);
-            this.panel14.Controls.Add(this.label16);
-            this.panel14.Location = new System.Drawing.Point(472, 239);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(232, 138);
-            this.panel14.TabIndex = 3;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(129, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 79);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(13, 106);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(188, 24);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Кандай текст жазылат";
-            // 
-            // label15
-            // 
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(13, 74);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(112, 24);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Текст жазат";
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(25, 13);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(81, 54);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "124";
-            // 
             // button67
             // 
+            this.button67.BackColor = System.Drawing.Color.DarkCyan;
             this.button67.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button67.BackgroundImage")));
             this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button67.FlatAppearance.BorderSize = 0;
             this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button67.Location = new System.Drawing.Point(1139, 6);
+            this.button67.Location = new System.Drawing.Point(1146, 8);
             this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(29, 23);
+            this.button67.Size = new System.Drawing.Size(29, 25);
             this.button67.TabIndex = 0;
             this.button67.UseVisualStyleBackColor = false;
             this.button67.Click += new System.EventHandler(this.button67_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button13.ForeColor = System.Drawing.Color.DarkGray;
-            this.button13.Location = new System.Drawing.Point(1150, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(24, 22);
-            this.button13.TabIndex = 1;
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(174)))), ((int)(((byte)(0)))));
-            this.panel13.Controls.Add(this.pictureBox1);
-            this.panel13.Controls.Add(this.label2);
-            this.panel13.Controls.Add(this.label12);
-            this.panel13.Controls.Add(this.label13);
-            this.panel13.Location = new System.Drawing.Point(112, 237);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(232, 138);
-            this.panel13.TabIndex = 3;
             // 
             // pictureBox1
             // 
@@ -1049,35 +1056,52 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
+            // pictureBox3
             // 
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 24);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Кандай текст жазылат";
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(129, 24);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(91, 79);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
             // 
-            // label12
+            // pictureBox2
             // 
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(13, 74);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 24);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Текст жазат";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(129, 24);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(91, 79);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
-            // label13
+            // panel2
             // 
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(24, 13);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 43);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "36";
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(219)))), ((int)(((byte)(221)))));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Controls.Add(this.button13);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.ForeColor = System.Drawing.Color.LightGray;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1177, 62);
+            this.panel2.TabIndex = 0;
+            // 
+            // button13
+            // 
+            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button13.ForeColor = System.Drawing.Color.DarkGray;
+            this.button13.Location = new System.Drawing.Point(1147, 9);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(21, 21);
+            this.button13.TabIndex = 1;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // Main
             // 
@@ -1098,27 +1122,29 @@
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Load += new System.EventHandler(this.Main_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panelLeft.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panelRight.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel15.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel13.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1152,7 +1178,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelRight;
@@ -1194,5 +1219,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Button button3;
     }
 }

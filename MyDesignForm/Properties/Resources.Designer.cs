@@ -93,6 +93,16 @@ namespace MyDesignForm.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_1340516_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("logo-1340516_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logout_Rounded_Left_26px {
             get {
                 object obj = ResourceManager.GetObject("Logout Rounded Left_26px", resourceCulture);
