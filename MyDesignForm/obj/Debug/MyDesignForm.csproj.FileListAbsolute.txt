@@ -17,3 +17,6 @@ c:\users\admin\documents\visual studio 2015\Projects\MyDesignForm\MyDesignForm\b
 c:\users\admin\documents\visual studio 2015\Projects\MyDesignForm\MyDesignForm\bin\Debug\MetroFramework.Fonts.dll
 c:\users\admin\documents\visual studio 2015\Projects\MyDesignForm\MyDesignForm\bin\Debug\Microsoft.VisualBasic.dll
 c:\users\admin\documents\visual studio 2015\Projects\MyDesignForm\MyDesignForm\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\NIMDA\Source\Repos\Finish\MyDesignForm\bin\Debug\MyDesignForm.exe.config
+C:\Users\NIMDA\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.exe
+C:\Users\NIMDA\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.pdb
