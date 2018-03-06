@@ -49,9 +49,9 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnD3 = new System.Windows.Forms.Button();
+            this.btnD2 = new System.Windows.Forms.Button();
+            this.btnD1 = new System.Windows.Forms.Button();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -222,9 +222,9 @@
             this.panel9.Controls.Add(this.button5);
             this.panel9.Controls.Add(this.button4);
             this.panel9.Controls.Add(this.button2);
-            this.panel9.Controls.Add(this.button7);
-            this.panel9.Controls.Add(this.button9);
-            this.panel9.Controls.Add(this.button6);
+            this.panel9.Controls.Add(this.btnD3);
+            this.panel9.Controls.Add(this.btnD2);
+            this.panel9.Controls.Add(this.btnD1);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel9.ForeColor = System.Drawing.Color.White;
             this.panel9.Location = new System.Drawing.Point(0, 96);
@@ -517,62 +517,62 @@
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnD3
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 58);
-            this.button7.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
-            this.button7.Size = new System.Drawing.Size(217, 29);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "  Алгебра";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnD3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnD3.FlatAppearance.BorderSize = 0;
+            this.btnD3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnD3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnD3.Image = ((System.Drawing.Image)(resources.GetObject("btnD3.Image")));
+            this.btnD3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD3.Location = new System.Drawing.Point(0, 58);
+            this.btnD3.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.btnD3.Name = "btnD3";
+            this.btnD3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
+            this.btnD3.Size = new System.Drawing.Size(217, 29);
+            this.btnD3.TabIndex = 1;
+            this.btnD3.Text = "  TestButton3";
+            this.btnD3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnD3.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnD2
             // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 29);
-            this.button9.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
-            this.button9.Size = new System.Drawing.Size(217, 29);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "  Биология";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnD2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnD2.FlatAppearance.BorderSize = 0;
+            this.btnD2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnD2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnD2.Image = ((System.Drawing.Image)(resources.GetObject("btnD2.Image")));
+            this.btnD2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD2.Location = new System.Drawing.Point(0, 29);
+            this.btnD2.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.btnD2.Name = "btnD2";
+            this.btnD2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
+            this.btnD2.Size = new System.Drawing.Size(217, 29);
+            this.btnD2.TabIndex = 1;
+            this.btnD2.Text = "  TestButton2";
+            this.btnD2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnD2.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnD1
             // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
-            this.button6.Size = new System.Drawing.Size(217, 29);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "  Геометрия";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnD1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnD1.FlatAppearance.BorderSize = 0;
+            this.btnD1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnD1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnD1.Image = ((System.Drawing.Image)(resources.GetObject("btnD1.Image")));
+            this.btnD1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD1.Location = new System.Drawing.Point(0, 0);
+            this.btnD1.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.btnD1.Name = "btnD1";
+            this.btnD1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 5);
+            this.btnD1.Size = new System.Drawing.Size(217, 29);
+            this.btnD1.TabIndex = 1;
+            this.btnD1.Text = "  Test Button1";
+            this.btnD1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnD1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnD1.UseVisualStyleBackColor = true;
             // 
             // panel31
             // 
@@ -1508,9 +1508,9 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnD3;
+        private System.Windows.Forms.Button btnD2;
+        private System.Windows.Forms.Button btnD1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel3;

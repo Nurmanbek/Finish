@@ -39,3 +39,11 @@ C:\Users\Developer\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.Form1
 C:\Users\Developer\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.Main.resources
 C:\Users\Developer\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.Properties.Resources.resources
 C:\Users\Developer\Source\Repos\Finish\MyDesignForm\obj\Debug\MyDesignForm.csproj.GenerateResource.Cache
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\EntityFramework.dll
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\System.Data.SQLite.dll
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\EntityFramework.xml
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Developer\Source\Repos\Finish\MyDesignForm\bin\Debug\System.Data.SQLite.xml

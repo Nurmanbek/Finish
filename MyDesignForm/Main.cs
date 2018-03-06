@@ -13,6 +13,7 @@ using MaterialSkin;
 using MetroFramework.Controls;
 using MetroFramework.Animation;
 using MetroFramework.Forms;
+using System.Data.SQLite;
 
 namespace MyDesignForm
 {
@@ -20,16 +21,36 @@ namespace MyDesignForm
     {
         public Main()
         {
-            InitializeComponent();
-            
+            InitializeComponent();  
         }
         
 
         private void Main_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "appData.PhoneBooks". При необходимости она может быть перемещена или удалена.
+            string program_dir = Application.StartupPath;
+            string sqlitedb_constr = $"Data source={program_dir}\\testdb.db;Version=3;";
 
-            FormBorderStyle = FormBorderStyle.None;
+            using (var baglan = new SQLiteConnection(sqlitedb_constr))
+            {
+                try
+                {
+                    baglan.Open();
+                    MessageBox.Show("Connection to database success!");
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show("Connection error!!! : "+ error);
+                    this.Close();
+                }
+                //using (var query = new SQLiteCommand("SELECT * FROM income", baglan))
+                //{
+
+                //}
+            }
+
+                // TODO: данная строка кода позволяет загрузить данные в таблицу "appData.PhoneBooks". При необходимости она может быть перемещена или удалена.
+
+                FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
             TopMost = true;
 
