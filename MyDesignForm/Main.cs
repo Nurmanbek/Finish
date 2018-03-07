@@ -29,28 +29,37 @@ namespace MyDesignForm
         {
             string program_dir = Application.StartupPath;
             string sqlitedb_constr = $"Data source={program_dir}\\testdb.db;Version=3;";
+            string[] btnDtext = new string[10];
 
             using (var baglan = new SQLiteConnection(sqlitedb_constr))
             {
-                try
+                using (var query = new SQLiteCommand("SELECT * FROM income", baglan))
                 {
-                    baglan.Open();
-                    MessageBox.Show("Connection to database success!");
+                    try
+                    {
+                        int i = 0;
+                        query.Connection.Open();
+                        SQLiteDataReader dtr = query.ExecuteReader();
+                        while (dtr.Read())
+                        {
+                            btnDtext[i] = dtr["title"].ToString();
+                            i++;
+                        }
+                        btnD1.Text =" "+btnDtext[0];
+                        btnD2.Text =" "+btnDtext[1];
+                        btnD3.Text =" "+btnDtext[2];
+                    }
+                    catch (Exception error)
+                    {
+                        MessageBox.Show("Connection error!!! : " + error);
+                        this.Close();
+                    }
                 }
-                catch (Exception error)
-                {
-                    MessageBox.Show("Connection error!!! : "+ error);
-                    this.Close();
-                }
-                //using (var query = new SQLiteCommand("SELECT * FROM income", baglan))
-                //{
-
-                //}
             }
 
-                // TODO: данная строка кода позволяет загрузить данные в таблицу "appData.PhoneBooks". При необходимости она может быть перемещена или удалена.
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "appData.PhoneBooks". При необходимости она может быть перемещена или удалена.
 
-                FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
             TopMost = true;
 
